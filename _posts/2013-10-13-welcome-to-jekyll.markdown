@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2013-10-13 19:45:00
+location: posts
 categories: jekyll update
 ---
 
