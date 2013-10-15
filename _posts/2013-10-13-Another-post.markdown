@@ -6,5 +6,4 @@ location: posts
 categories: temp
 ---
 
-# Well a new post
 See if it works!

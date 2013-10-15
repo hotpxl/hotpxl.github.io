@@ -6,8 +6,6 @@ location: posts
 categories: thoughts
 ---
 
-# Is God Lonely?
-
 We know that God wants a loving relationship with us. But He cannot impose His power on us. What He wants is a loving relationship.
 
 Like the story Soren Kierkegaard told in *The King and the Maiden*, the king cannot just go and express his love.
