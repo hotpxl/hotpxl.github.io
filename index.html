@@ -1,51 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>HotPxL of the Psionic Extended Like by hotpxl</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <title>Yutian Li by hotpxl</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>HotPxL of the Psionic Extended Like</h1>
-        <p>Nah. In progress.</p>
+    <header>
+      <div class="inner">
+        <h1>Yutian Li</h1>
+        <h2>Nah. What to say.</h2>
+        <a href="https://github.com/hotpxl" class="button"><small>Follow me on</small> GitHub</a>
+      </div>
+    </header>
 
-
-        <p class="view"><a href="https://github.com/hotpxl">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <h1>
-<a id="as-an-introduction" class="anchor" href="#as-an-introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>As an Introduction</h1>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="me" class="anchor" href="#me" aria-hidden="true"><span class="octicon octicon-link"></span></a>Me</h1>
 
 <hr>
 
 <ul>
 <li>Name: Yutian Li</li>
-<li>Email: <a href="mailto:kevinleeone@gmail.com">kevinleeone@gmail.com</a>
+<li>Email: <a href="mailto:hotpxless@gmail.com">hotpxless@gmail.com</a>
 </li>
-<li><a href="https://github.com/hotpxl">GitHub</a></li>
-<li>LinkedIn: TBU</li>
-<li>Resume: TBU</li>
+<li>Me on <a href="https://github.com/hotpxl">GitHub</a>
+</li>
+<li><a href="yutian_li.pdf">Resume</a></li>
 <li>Education:
 
 <ul>
-<li>I'm a senior year computer science student at <a href="http://www.tsinghua.edu.cn/publish/then/">Tsinghua University</a>
+<li>I'm a senior year computer science student at <a href="http://www.tsinghua.edu.cn/">Tsinghua University</a>
 </li>
 <li>I went on an exchange program at <a href="http://www.utexas.edu/">the University of Texas at Austin</a> during the fall semester of 2013</li>
 </ul>
 </li>
 </ul>
-
-<p><img src="http://s.gravatar.com/avatar/fb6446785dbf36af7d350514c6d4362c?s=200" alt="My Photo"></p>
 
 <h1>
 <a id="projects-and-experience" class="anchor" href="#projects-and-experience" aria-hidden="true"><span class="octicon octicon-link"></span></a>Projects and Experience</h1>
@@ -53,27 +56,141 @@
 <hr>
 
 <h2>
+<a id="athena" class="anchor" href="#athena" aria-hidden="true"><span class="octicon octicon-link"></span></a>Athena</h2>
+
+<ul>
+<li>Last Active: December, 2014</li>
+<li>Repository: Coming Soon!</li>
+<li>
+<p>Description:</p>
+
+<p>Make deep neural networks a home dish! This is a project I am participating at <a href="http://research.microsoft.com/en-us/labs/asia/">Microsoft Research Asia</a>. Our goal is to provide an intuitive tool aimed at deep neural networks, that is optimized for <a href="http://www.nvidia.com/object/cuda_home_new.html">CUDA</a>. It has a <a href="http://www.python.org/">Python</a> interactive frontend. Of course, precompiled code is also supported. On the backend side, it utilizes dataflow to achieve maximum parallelism and performance, on multiple GPU/CPU configuration.</p>
+
+<p>I worked mainly on the backend, including but not limited to</p>
+
+<ul>
+<li>Directed acyclic graph manipulation</li>
+<li>Memory management</li>
+<li>Thread management</li>
+<li>Device management</li>
+<li>Dispatching routine</li>
+</ul>
+</li>
+<li>
+<p>Tools and Languages:</p>
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a></li>
+<li><a href="http://www.python.org/">Python</a></li>
+<li><a href="http://www.boost.org/">Boost C++ Libraries</a></li>
+<li><a href="http://www.numpy.org/">NumPy</a></li>
+<li><a href="http://www.nvidia.com/object/cuda_home_new.html">CUDA</a></li>
+<li><a href="https://developer.nvidia.com/cuDNN">cuDNN</a></li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="bgp-monitor" class="anchor" href="#bgp-monitor" aria-hidden="true"><span class="octicon octicon-link"></span></a>BGP Monitor</h2>
+
+<ul>
+<li>Last Active: December, 2014</li>
+<li>Repository: <a href="https://github.com/hotpxl/bartholomew">GitHub</a>
+</li>
+<li>Live: Not available to public due to access control on CERNET.</li>
+<li>
+<p>Description:</p>
+
+<p>This time, I am able to get real-time data from a BGP router on backbone <a href="http://en.wikipedia.org/wiki/CERNET">CERNET</a> network! I work on this project to reconstruct BGP topology from my looking glass, and try to make an interactive representation on the network status within China. This project is developed with <a href="http://en.wikipedia.org/wiki/Representational_state_transfer">RESTful</a> in mind from the beginning, and has unit tests integrated all the way.</p>
+</li>
+<li>
+<p>Tools and Languages:</p>
+
+<ul>
+<li><a href="http://nodejs.org/">Node.js</a></li>
+<li><a href="http://coffeescript.org/">CoffeeScript</a></li>
+<li><a href="http://jade-lang.com/">Jade</a></li>
+<li><a href="http://learnboost.github.io/stylus/">Stylus</a></li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="info-portal" class="anchor" href="#info-portal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Info Portal</h2>
+
+<ul>
+<li>Last Active: September, 2014</li>
+<li>Repository: <a href="https://github.com/hotpxl/info-portal">GitHub</a>
+</li>
+<li>
+<p>Description:</p>
+
+<p>This is a class project for Java Programming. Java, of course, is used to implement a website mocking <a href="http://info.tsinghua.edu.cn/">Tsinghua Info Portal</a>. It also features complex integration with SQL database. I worked mainly on the backend.</p>
+</li>
+<li>
+<p>Tools and Languages:</p>
+
+<ul>
+<li><a href="https://www.java.com/">Java</a></li>
+<li><a href="https://www.playframework.com/">Play Framework</a></li>
+<li><a href="http://www.mysql.com/">MySQL</a></li>
+<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="high-frequency-trading-emulation" class="anchor" href="#high-frequency-trading-emulation" aria-hidden="true"><span class="octicon octicon-link"></span></a>High Frequency Trading Emulation</h2>
+
+<ul>
+<li>Last Active: May, 2014</li>
+<li>Repository: <a href="https://github.com/hotpxl/lazareth">GitHub</a>
+</li>
+<li>Live: <a href="http://chaochao.info/">chaochao.info</a>
+</li>
+<li>
+<p>Description:</p>
+
+<p>On this website, you could try tuning with specific trading parameters, play with different trading strategies, and do a backtesting on our data. While not many strategies are implemented, I put emphasis on the basic structure and framework. Of course, it is built on a <a href="http://en.wikipedia.org/wiki/Representational_state_transfer">RESTful</a> API, decoupling data and views, and could be easily extended even with user-specified strategies.</p>
+</li>
+<li>
+<p>Tools and Languages:</p>
+
+<ul>
+<li><a href="http://nodejs.org/">Node.js</a></li>
+<li><a href="http://coffeescript.org/">CoffeeScript</a></li>
+<li><a href="http://jade-lang.com/">Jade</a></li>
+<li><a href="http://learnboost.github.io/stylus/">Stylus</a></li>
+<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+</ul>
+</li>
+</ul>
+
+<h2>
 <a id="world-crisis-database" class="anchor" href="#world-crisis-database" aria-hidden="true"><span class="octicon octicon-link"></span></a>World Crisis Database</h2>
 
 <ul>
-<li>Time: December, 2013</li>
-<li>Repository: Private, ask me for permission!</li>
-<li>Link: <a href="http://cs373wcdb.herokuapp.com/">Heroku</a>
+<li>Last Active: December, 2013</li>
+<li>Repository: Private. Ask me for permission!</li>
+<li>Live: <a href="http://cs373wcdb.herokuapp.com/">Heroku</a>
 </li>
 <li>
 <p>Description:</p>
 
 <p>An app that emulates <a href="http://www.imdb.com/">IMDB</a> in displaying worldwide crises and related people and organizations.</p>
 
-<p>It implements a <a href="http://en.wikipedia.org/wiki/Representational_state_transfer">RESTful</a> API for connecting to and retrieving data from the server.
-(TODO: Write more about what I did, even post code sample or photos)</p>
+<p>It implements a <a href="http://en.wikipedia.org/wiki/Representational_state_transfer">RESTful</a> API for connecting to and retrieving data from the server.</p>
+
+<p>I worked mainly on the <a href="https://www.djangoproject.com/">Django</a> backend, but also help implement the <a href="https://angularjs.org/">AngularJS</a>-based frontend.</p>
 </li>
-<li>Tools and Languages:
+<li>
+<p>Tools and Languages:</p>
 
 <ul>
 <li><a href="http://www.python.org/">Python</a></li>
 <li><a href="https://www.djangoproject.com/">Django</a></li>
 <li><a href="https://www.heroku.com/">Heroku</a></li>
+<li><a href="http://www.mysql.com/">MySQL</a></li>
 <li><a href="http://angularjs.org/">AngularJS</a></li>
 <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
 </ul>
@@ -84,15 +201,16 @@
 <a id="ftp-server-and-client" class="anchor" href="#ftp-server-and-client" aria-hidden="true"><span class="octicon octicon-link"></span></a>FTP Server and Client</h2>
 
 <ul>
-<li>Time: May, 2013</li>
-<li>Repository: <a href="https://github.com/kevinleeone/ftp">GitHub</a>
+<li>Last Active: May, 2013</li>
+<li>Repository: <a href="https://github.com/hotpxl/ftp">GitHub</a>
 </li>
 <li>
 <p>Description:</p>
 
 <p>It is a class project for Computer Networks. I implemented it in Python 3.3 and strictly according to <a href="http://tools.ietf.org/html/rfc959">RFC 959</a>. Though it does not offer a GUI, it supports the most essential, but not all, features of the RFC. It even supports different network layers, including IPv4 and IPv6. Also the server has support for multitasking, allowing it to respond to different clients at the same time.</p>
 </li>
-<li>Tools and Languages:
+<li>
+<p>Tools and Languages:</p>
 
 <ul>
 <li><a href="http://www.python.org/">Python</a></li>
@@ -101,26 +219,36 @@
 </ul>
 
 <h2>
-<a id="ray-tracer" class="anchor" href="#ray-tracer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ray Tracer</h2>
+<a id="ray-tracer-and-mesh-simplifier" class="anchor" href="#ray-tracer-and-mesh-simplifier" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ray Tracer and Mesh Simplifier</h2>
 
 <ul>
-<li>Time: June, 2013</li>
-<li>Repository: TBU</li>
-<li>Description:</li>
+<li>Last Active: June, 2013</li>
+<li>Repository: <a href="https://github.com/hotpxl/fundamentals-of-computer-graphics">GitHub</a>
+</li>
+<li>
+<p>Description:</p>
+
+<p>As for the ray tracer, it features a BSP tree for complex models. It also has support for reflection, refraction, texture, and many more advanced features.</p>
+</li>
+<li>
+<p>Tools and Languages:</p>
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a></li>
 </ul>
+</li>
+</ul>
+        </section>
 
-<h2>
-<a id="mesh-simplifier" class="anchor" href="#mesh-simplifier" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mesh Simplifier</h2>
+        <aside id="sidebar">
 
-<h2>
-<a id="battleship" class="anchor" href="#battleship" aria-hidden="true"><span class="octicon octicon-link"></span></a>Battleship</h2>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
+
+            <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
