@@ -1,0 +1,55 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    link(rel='stylesheet' href='http://yui.yahooapis.com/pure/0.6.0/pure-min.css')
+    link(rel='stylesheet' href='http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato')
+    style.
+      .is-center {
+        text-align: center;
+      }
+      .right-aligned {
+        text-align: right;
+      }
+      .fotter-block {
+        margin: 0 0;
+      }
+      html, button, input, select, textarea,
+      .pure-g [class *= "pure-u"] {
+        font-family: "Lato", sans-serif;
+      }
+    title Yutian Li
+  body
+    .splash-container(style='background: #225378; z-index: -1; width: 100%; height: 70%; top: 0; left: 0; overflow: hidden; position: fixed; display: flex; flex-direction: column; align-items: center; justify-content: center')
+      .pure-g
+        .pure-u-1-1(style='text-align: center')
+          p(style='margin: 0; color: #f3ffe2; font-size: 10em') Yutian Li
+          p(style='margin: 0; color: #f3ffe2;') @hotpxl
+    .content-container(style='position: absolute; top: 70%; width: 100%; background: #fff;')
+      .thin-wrapper(style='margin: 0 20px;')
+        .introduction(style='max-width: 640px; margin: 70px auto;')
+          .pure-g
+            .pure-u-1-1
+              h1.right-aligned About me
+              p.right-aligned I am a currently on-leave master's student at Stanford University.
+              p.right-aligned I practice the ancient art of computer programming.
+              p.right-aligned I spend most of my time sleeping.
+      .thin-wrapper(style='margin: 0 20px;')
+        .contact-background(style='background: #eb7f00; padding: 70px 0;')
+          .contact(style='max-width: 640px; margin: 0 auto;')
+            .pure-g
+              .pure-u-1-1(style='color: #f3ffe2')
+                h1.right-aligned More stuff about me
+                p.right-aligned Email: hotpxless@gmail.com
+                .right-aligned(style='margin: 20px 0;')
+                  a.pure-button(href='https://github.com/hotpxl') GitHub
+                .right-aligned(style='margin: 20px 0;')
+                  a.pure-button(href='http://yutian.li/yutian_li.pdf') Resume
+      footer(style='font-size: 0; margin-top: -35px')
+        .footer-block(style='background: #225378; width: 35px; height: 35px; display: inline-block;')
+        .footer-block(style='background: #1695a3; width: 35px; height: 35px; display: inline-block;')
+        .footer-block(style='background: #acf0f2; width: 35px; height: 35px; display: inline-block;')
+        .footer-block(style='background: #f3ffe2; width: 35px; height: 35px; display: inline-block;')
+        .footer-block(style='background: #eb7f00; width: 35px; height: 35px; display: inline-block;')

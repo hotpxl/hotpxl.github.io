@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bower": "",
+    "grunt": "",
+    "grunt-contrib-clean": "",
+    "grunt-contrib-copy": "",
+    "grunt-contrib-jade": "",
+    "grunt-contrib-stylus": "",
+    "grunt-contrib-uglify": "",
+    "grunt-contrib-watch": "",
+    "lodash": "",
+    "restify": "",
+    "winston": ""
+  }
+}
