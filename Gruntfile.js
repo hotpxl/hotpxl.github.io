@@ -6,10 +6,10 @@ module.exports = function(grunt) {
         src: ['./public']
       }
     },
-    jade: {
+    pug: {
       compile: {
         cwd: './frontend',
-        src: ['./**/*.jade'],
+        src: ['./**/*.pug'],
         dest: './public',
         ext: '.html',
         extDot: 'last',
@@ -57,9 +57,9 @@ module.exports = function(grunt) {
       }
     },
     watch: {
-      jade: {
-        files: ['./frontend/**/*.jade'],
-        tasks: ['jade']
+      pug: {
+        files: ['./frontend/**/*.pug'],
+        tasks: ['pug']
       },
       stylus: {
         files: ['./frontend/styles/**/*.styl'],
@@ -73,13 +73,13 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-jade');
+  grunt.loadNpmTasks('grunt-contrib-pug');
   grunt.loadNpmTasks('grunt-contrib-stylus');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('compile', ['jade', 'stylus', 'uglify', 'copy']);
+  grunt.registerTask('compile', ['pug', 'stylus', 'uglify', 'copy']);
   grunt.registerTask('dev', ['clean', 'compile', 'watch']);
   grunt.registerTask('default', ['clean', 'compile']);
 };
