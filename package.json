@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bower": "",
+    "grunt": "",
+    "grunt-contrib-clean": "",
+    "grunt-contrib-copy": "",
+    "grunt-contrib-pug": "",
+    "grunt-contrib-stylus": "",
+    "grunt-contrib-uglify": "",
+    "grunt-contrib-watch": "",
+    "lodash": "",
+    "restify": "",
+    "winston": ""
+  }
+}
