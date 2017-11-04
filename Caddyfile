@@ -1,0 +1,10 @@
+yutian.li {
+    tls hotpxless@gmail.com
+    root ./src/
+    gzip
+}
+
+www.yutian.li {
+    tls hotpxless@gmail.com
+    redir https://yutian.li
+}
