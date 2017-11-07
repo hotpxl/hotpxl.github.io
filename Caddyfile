@@ -1,5 +1,6 @@
 yutian.li {
     tls hotpxless@gmail.com
+    log stderr
     root ./src/
     gzip
 }
