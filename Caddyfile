@@ -3,6 +3,9 @@ yutian.li {
     log stderr
     root ./src/
     gzip
+    header / {
+        Cache-Control no-cache
+    }
 }
 
 www.yutian.li {
